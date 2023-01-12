@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Robotobold.ttf);
+    font-weight: bold;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.modal-header {
+    background-color: #0d6efd;
+}
+
+.modal-title {
+    color: #fff;
+}
+
+.carousel-inner {
+    margin: 20px 0;
+    width: 50%;
+    align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        font-size: 12px;
+    }
+
+    .btn-modal {
+        font-size: 10px;
+    }
+
+    .main-text {
+        font-size: 14px;
+        margin: 20px 0;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) {
+    .container {
+        font-size: 12px;
+    }
+    
+    .btn-modal {
+        font-size: 10px;
+    }
+    
+    .main-text {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    .carousel-inner {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .container {
+        font-size: 16px;
+    }
+
+    .btn-modal {
+        font-size: 12px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+}
+@media screen and (min-width: 992px) {
+    .container {
+        font-size: 18px;
+    }
+
+    .btn-modal {
+        font-size: 14px;
+    }
+    
+    .main-text {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+}
